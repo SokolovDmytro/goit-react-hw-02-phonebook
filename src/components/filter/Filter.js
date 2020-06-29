@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Filter = ({ filter, getName }) => (
+const Filter = ({ value, getName }) => (
   <>
     <p>Find contact by name</p>
     <input 
     type="text"
     onChange={getName}
-    value={filter}
+    value={value}
     />
   </>
 );
