@@ -12,8 +12,4 @@ const Filter = ({ value, getName }) => (
   </>
 );
 
-Filter.propTypes = {
-  getName: PropTypes.func.isRequired
-};
-
 export default Filter;

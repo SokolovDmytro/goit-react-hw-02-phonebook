@@ -47,7 +47,7 @@ class App extends Component {
   };
 
   render() {
-    const {filter} = this.state
+    const {filter} = this.state;
     return (
       <div>
         <h1>Phonebook</h1>
