@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Filter = ({ value, getName }) => (
   <>
@@ -10,5 +11,9 @@ const Filter = ({ value, getName }) => (
     />
   </>
 );
+
+Filter.propTypes = {
+  getName: PropTypes.func.isRequired
+};
 
 export default Filter;
